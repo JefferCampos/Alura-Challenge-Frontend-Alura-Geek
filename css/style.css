@@ -90,12 +90,28 @@ header {
     margin-top: 1em;
 }
 
-/* FIM DO CSS DO BANNER*/ 
+    /* FIM DO CSS DO BANNER*/ 
+
+    /* CSS DOS PRODUTOS  */
 
 .principal {
     justify-content: space-between;
     width: 940px;
     margin: 0 auto;
+}
+
+.botao-produtos {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #2A7AE4;
+    background: none;
+    border: none;
+    background-image: url('/assets/img/seta-direta.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 2em;
 }
 
 .produtos { 
@@ -107,4 +123,41 @@ header {
     display: flex;
     justify-content: space-between;
     padding-top: 32px;
+}
+
+.lista-produtos {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.descricao-produto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70px;
+    margin-top: 10px;
+}
+
+.nome-produto {
+    font-family: 'Raleway';
+    color: rgba(70, 70, 70, 1);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.preco-produto {
+    color: #464646;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+
+.pagina-produto {
+    text-decoration: none;
+    color: #2A7AE4;
+    font-weight: 700;
+    font-size: 16px;
 }

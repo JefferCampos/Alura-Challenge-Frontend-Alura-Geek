@@ -1,77 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/reset.css" rel="stylesheet">
-    <title>Alura Geek</title>
-</head>
-<body>
-    <div>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link href="css/reset.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet"> 
+        <title>Alura Geek</title>
+        <link rel="icon" type="image/x-icon" href="/assets/img/favi-icon.png">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    </head>
+    <body>
         <header class="cabecalho">
-            <img src="assets/img/logo-alurageek.png">
-            <input placeholder="O que deseja encontrar?">
-                (imagem da lupa)
-            </input>
-            <button class="btn-login">Login</button>
+            <div class="cabecalho-container">
+
+                <a href="index.html"><img src="assets/img/logo-alurageek.png"></a>
+
+                <div class="barra-pesquisa">
+                    <input class="search" type="search "placeholder="O que deseja encontrar?"></input>
+                </div>
+
+                <a href="login.html">
+                    <button class="btn-login">Login</button>
+                </a>
+                
+            </div>
         </header>
-    </div>
-    <div>
+        
+        <section class="banner-principal">
+            <img class="banner" src="assets/img/banner.png">
+                <div class="conteudo-banner">
+                    <h2 class="titulo-principal">Dezembro Promocional</h2>
+                    <h3 class="titulo-secundario">Produtos selecionados com 33% de desconto</h3>
+                    <button class="botao-banner">Ver Consoles</button>
+                </div>
+        </section>
+
         <main>
-            <img src="assets/img/banner.png">
-            <div class="produtos">
-                <h2>Star Wars</h2>
-                <button>Ver tudo -></button>
-            </div>
-            <div class="repetir">
-            <img src="assets/img/star-wars.png" id="start-wars">
-            <h2>Produto XYZ</h2>
-            <h3>R$ 60,00</h3>
-            </div>
+            <section class="principal">
+                <div class="produtos">
+                    <h2>Star Wars</h2>
+                    <button>Ver tudo -></button>
+                </div>
+                <div class="repetir">
+                <img src="assets/img/star-wars.png" id="start-wars">
+                <h2>Produto XYZ</h2>
+                <h3>R$ 60,00</h3>
+                </div>
+            </br>
+                <div class="produtos">
+                    <h2>Consoles</h2>
+                    <button>Ver tudo -></button>
+                </div>
+                <img src="assets/img/star-wars.png">
+                <h2>Produto XYZ</h2>
+                <h3>R$ 60,00</h3>
+            </br>
+                <div class="produtos">
+                    <h2>Diversos</h2>
+                    <button>Ver tudo -></button>
+                </div>
+                <img src="assets/img/star-wars.png">
+                <h2>Produto XYZ</h2>
+                <h3>R$ 60,00</h3>
+            </main>
+
+            </br>
+        </section>
+
+        <footer>
+            <img src="assets/img/logo-alurageek.png">
+            <ul>
+                <li>Quem somos nós</li>  
+                <li>Política de privacidade</li>    
+                <li>Programa fidelidade</li>   
+                <li>Nossas lojas</li>    
+                <li>Quero ser franqueado</li>
+                <li>Anuncie aqui</li>
+            </ul>
         </br>
-            <div class="produtos">
-                <h2>Consoles</h2>
-                <button>Ver tudo -></button>
-            </div>
-            <img src="assets/img/star-wars.png">
-            <h2>Produto XYZ</h2>
-            <h3>R$ 60,00</h3>
+            <form>
+                <label>Fale Conosco</label>
+                <input placeholder="Nome"></input>
+                <input type="text" placeholder="Escreva sua mensagem"></input>
+                <button>Enviar mensagem</button>
+            </form>
         </br>
-            <div class="produtos">
-                <h2>Diversos</h2>
-                <button>Ver tudo -></button>
+            <div>
+                <h2>Desenvolvido por Jefferson Campos </br> 2022</h2>
+                <h2>Alura Challenge Frontend</h2>
+                <h2>Gostaria de agradecer a Alura por essa oportunidade</h2>
             </div>
-            <img src="assets/img/star-wars.png">
-            <h2>Produto XYZ</h2>
-            <h3>R$ 60,00</h3>
-        </main>
-    </div>
-    </br>
-    <footer>
-        <img src="assets/img/logo-alurageek.png">
-        <ul>
-            <li>Quem somos nós</li>  
-            <li>Política de privacidade</li>    
-            <li>Programa fidelidade</li>   
-            <li>Nossas lojas</li>    
-            <li>Quero ser franqueado</li>
-            <li>Anuncie aqui</li>
-        </ul>
-    </br>
-        <form>
-            <label>Fale Conosco</label>
-            <input placeholder="Nome"></input>
-            <input type="text" placeholder="Escreva sua mensagem"></input>
-            <button>Enviar mensagem</button>
-        </form>
-    </br>
-        <div>
-            <h2>Desenvolvido por Jefferson Campos </br> 2022</h2>
-            <h2>Alura Challenge Frontend</h2>
-            <h2>Gostaria de agradecer a Alura por essa oportunidade</h2>
-        </div>
-    </footer>
-</body>
+        </footer>
+    </body>
 </html>

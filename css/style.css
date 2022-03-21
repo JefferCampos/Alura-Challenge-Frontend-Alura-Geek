@@ -161,3 +161,78 @@ header {
     font-weight: 700;
     font-size: 16px;
 }
+
+    /* FIM DO CSS DOS PRODUTOS*/ 
+
+    /* CSS DO RODAPÉ  */
+
+.rodape {
+    background-color: rgba(234, 242, 253, 1);
+}
+
+.rodape-itens {
+    display: flex;
+    align-items: flex-start;
+    width: 940px;
+    height: 368px;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 5em;
+}
+
+/* .logo-rodape {
+    padding-top: 5em; 
+}
+
+.lista-rodape  {
+    padding-top: 5em; 
+} */
+
+.lista-rodape li {
+    padding: 13px;
+}
+
+.formulario-rodape {
+    display: flex;
+    flex-direction: column;
+    width: 440px;
+    font-weight: bold;
+    height: 240px;
+    justify-content: space-between;
+}
+
+.input-nome {
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.input-texto {
+    border-radius: 5px;
+    border: none;
+    height: 82px;
+    padding-left: 10px;
+}
+
+.botao-rodape {
+    font-size: 16px;
+    color: white;
+    background-color: #2A7AE4;
+    width: 182px;
+    height: 51px;
+    border: none;
+}
+
+    /* FIM DO CSS DO RODAPE*/ 
+
+    /* CSS DOS CRÉDITOS  */
+
+.copyright {
+    text-align: center;
+    width: 940px;
+    margin: auto;
+    padding: 30px;
+}
+
+    /* FIM DO CSS DO COPYRIGHT*/ 

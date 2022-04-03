@@ -1,0 +1,43 @@
+body {
+    font-family: 'Raleway';
+}
+
+
+/* CSS DO CABECALHO */
+header {
+    padding: 50px 32px 32px 32px;
+}
+
+.cabecalho-container {
+    align-items: center;
+    display: flex;
+    width: 940px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.search {
+    width: 393px;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 20px;
+    background-image: url('/assets/img/lupa.png');
+    background-repeat: no-repeat;
+    background-position: center right 1rem;
+    margin-right: 8rem;
+    background-color:  #F5F5F5;
+}
+
+.btn-login {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #2A7AE4;
+    width: 182px;
+    height: 51px;
+    border: 1px solid #2A7AE4;
+    background: none;
+}
+
+    /* FIM DO CSS DO CABECALHO*/ 

@@ -1,0 +1,23 @@
+body {
+    font-family: 'Raleway';
+}
+
+main {
+    background: #E5E5E5;
+    height: 100px;
+}
+
+.form-login {
+    
+}
+
+ /* CSS DOS CRÉDITOS  */
+
+ .copyright {
+    text-align: center;
+    width: 940px;
+    margin: auto;
+    padding: 30px;
+}
+
+    /* FIM DO CSS DO COPYRIGHT*/ 
